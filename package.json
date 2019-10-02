@@ -9,15 +9,16 @@
   },
   "keywords": [],
   "author": "Eric McCormick (https://edm00se.codes/)",
+  "homepage": "htps://edm00se.codes/parcel-v2-demo",
   "license": "MIT",
   "devDependencies": {
     "parcel": "^2.0.0-alpha.1.1"
   },
   "source": "src/index.html",
   "browser": "dist/index.html",
-	"targets": {
-		"browser": {
-			"browsers": ["> 1%", "not dead"]
-		}
-	}
+    "targets": {
+      "browser": {
+        "browsers": ["> 1%", "not dead"]
+      }
+    }
 }
