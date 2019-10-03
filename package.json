@@ -12,13 +12,18 @@
   "homepage": "htps://edm00se.codes/parcel-v2-demo",
   "license": "MIT",
   "devDependencies": {
+    "core-js": "^3.2.1",
     "parcel": "^2.0.0-alpha.1.1"
   },
   "source": "src/index.html",
   "browser": "dist/index.html",
-    "targets": {
-      "browser": {
-        "browsers": ["> 1%", "not dead"]
-      }
+  "targets": {
+    "browser": {
+      "publicUrl": ".",
+      "browsers": [
+        "> 1%",
+        "not dead"
+      ]
     }
+  }
 }
