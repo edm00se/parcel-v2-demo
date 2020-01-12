@@ -1,5 +1,3 @@
-import "core-js/stable";
-import 'regenerator-runtime/runtime';
 const app = document.getElementById('app');
 
 app.innerHTML = `
