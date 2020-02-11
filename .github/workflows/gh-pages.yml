@@ -18,13 +18,13 @@ jobs:
     - run: |
         npm ci
         npm run build
-        touch ./dist/.nojekyll
+        touch ./dist/browser/.nojekyll
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.4.0
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./dist
+        PUBLISH_DIR: ./dist/browser
       with:
         emptyCommits: false
