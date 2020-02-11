@@ -14,9 +14,12 @@
   "devDependencies": {
     "parcel": "^2.0.0-alpha.3.2"
   },
-  "browserslist": ["> 1%", "not dead"],
-  "targets": {	
-    "browser": {	
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "targets": {
+    "browser": {
       "publicUrl": "."
     }
   }
