@@ -1,0 +1,1 @@
+{"mappings":"AAAYA,SAASC,eAAe,OAEhCC,UAAJ","sources":["./src/main.js"],"sourcesContent":["const app = document.getElementById('app');\n\napp.innerHTML = `\n  <h1>Parcel v2 Test!</h1>\n\n  <p>\n    Here's some content, hopefully this works.\n  </p>\n`;"],"names":["document","getElementById","innerHTML"],"version":3,"file":"index.ade11e31.js.map"}
