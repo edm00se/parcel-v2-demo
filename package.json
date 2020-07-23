@@ -12,7 +12,7 @@
   "homepage": "htps://edm00se.codes/parcel-v2-demo",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.90"
+    "parcel": "^2.0.0-nightly.349"
   },
   "browserslist": [
     "> 1%",
